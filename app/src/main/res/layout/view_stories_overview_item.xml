@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_stories_overview_item_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/drawable_story_overview_item_background"
+    android:paddingTop="@dimen/margin_4"
+    android:paddingBottom="@dimen/margin_4"
+    android:paddingStart="@dimen/margin_8"
+    android:paddingEnd="@dimen/margin_8"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/story_title"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_view_story_overview_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "A video game community filled my nephew's final days with joy"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/story_author"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_view_story_overview_item_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text = "mattkevan"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

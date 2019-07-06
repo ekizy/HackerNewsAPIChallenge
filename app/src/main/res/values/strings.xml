@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">HackerNewsStoryOverviewApp</string>
+    <string name="story_title">Story Title:\u0020</string>
+    <string name="story_author">Story Author:\u0020</string>
+    <string name="story_creation_date">Story Creation Date:\u0020</string>
+    <string name="story_score">Story Score:\u0020</string>
+    <string name="story_id">Story ID:\u0020</string>
+    <string name="story_url">Story URL:\u0020</string>
+    <string name="stories_overview_screen_title">Overview</string>
+    <string name="story_detail_screen_title">Story Detail</string>
+
+</resources>
